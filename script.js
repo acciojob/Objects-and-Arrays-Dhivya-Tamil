@@ -7,11 +7,12 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
-let team = players
-let team = players.slice()
-let cap1 = person.assign({},person)
+var team= players;
+var team1 =players.slice();
+var cap1 = Object.assign({}, person);
 window.players = players;
 window.person = person;
 window.team = team;
 window.team1 = team1;
 window.cap1 = cap1;
+
